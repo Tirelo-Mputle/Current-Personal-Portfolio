@@ -1,0 +1,14 @@
+/* Remove default styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+/* //////////////// */
+
+/* Page wide styling */
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
