@@ -8,7 +8,6 @@
 
 /* PAGE WIDE STYLING */
 body {
-  padding: 0 5%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #000;
 }
@@ -24,18 +23,120 @@ li {
 
 /* END OF REUSABLE STYLE COMBINATIONS */
 
+/* START OF HEADER */
+header {
+  background-color: #6819ff;
+  color: #fffcff;
+  padding: 0 5%;
+  height: 100vh;
+}
+header a {
+  color: #fffcff;
+}
+
 /* START OF NAV BAR */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
+  background-color: #6819ff;
+}
+.logo {
+  font-size: 1.5rem;
+  color: #0f1922;
 }
 .nav-list {
   display: flex;
   gap: 0.3rem;
 }
-.nav-item {
-  font-size: 0.6rem;
+.nav-item a {
+  font-size: 0.7rem;
+}
+.nav-item a:hover {
+  color: #0f1922;
 }
 /* END OF NAV BAR */
+
+/* START OF HERO SECTION */
+
+.hero-section {
+  text-align: center;
+  padding: 25% 0;
+}
+.hero-text {
+  margin-bottom: 3rem;
+}
+.hero-text p {
+  margin-bottom: 0.6rem;
+}
+.intro {
+  font-size: 1.3rem;
+}
+
+.current-role {
+  font-size: 1.9rem;
+  font-weight: 900;
+}
+.my-name {
+  font-size: 2.7rem;
+  font-weight: 900;
+}
+
+.hero-projects-link {
+  border: 2px solid #fffcff;
+  padding: 0.7rem 1rem;
+  display: inline-block;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.hero-projects-link:hover {
+  color: #fffcff;
+  border-color: #0f1922;
+  background-color: #0f1922;
+}
+/* END OF HERO SECTION  */
+/* START OF HEADER MEDIA QUERIES */
+@media screen and (min-width: 375px) {
+  .nav-item a {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 425px) {
+  .nav-item a {
+    font-size: 0.9rem;
+  }
+  .intro {
+    font-size: 2rem;
+  }
+  .my-name {
+    font-size: 3.5rem;
+  }
+  .current-role {
+    font-size: 2.3rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav-item a {
+    font-size: 1rem;
+  }
+  .nav-list {
+    gap: 1.5rem;
+  }
+  .intro {
+    font-size: 2.5rem;
+  }
+  .my-name {
+    font-size: 4.5rem;
+  }
+  .current-role {
+    font-size: 3rem;
+  }
+  .hero-projects-link {
+    font-size: 1.1rem;
+  }
+}
+/* END OF HEADER MEDIA QUERIES */
+/* END OF HEADER */
