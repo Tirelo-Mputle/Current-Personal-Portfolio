@@ -21,13 +21,23 @@ li {
 
 /* REUSABLE STYLE COMBINATIONS */
 
+.centered-section {
+  padding: 5rem 10%;
+}
+.section-heading {
+  font-family: "Courier New", Courier, monospace;
+  color: #6819ff;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
 /* END OF REUSABLE STYLE COMBINATIONS */
 
 /* START OF HEADER */
 header {
   background-color: #6819ff;
   color: #fffcff;
-  padding: 0 5%;
+  padding: 0 5% 5rem;
   height: 100vh;
 }
 header a {
@@ -52,6 +62,7 @@ nav {
 }
 .nav-item a {
   font-size: 0.7rem;
+  font-weight: 600;
 }
 .nav-item a:hover {
   color: #0f1922;
@@ -62,7 +73,7 @@ nav {
 
 .hero-section {
   text-align: center;
-  padding: 25% 0;
+  margin: 15% 0;
 }
 .hero-text {
   margin-bottom: 3rem;
@@ -107,6 +118,7 @@ nav {
 @media screen and (min-width: 425px) {
   .nav-item a {
     font-size: 0.9rem;
+    font-weight: normal;
   }
   .intro {
     font-size: 2rem;
@@ -140,3 +152,74 @@ nav {
 }
 /* END OF HEADER MEDIA QUERIES */
 /* END OF HEADER */
+
+/* START OF ABOUT SECTION */
+.about-image {
+  width: 60%;
+  border-radius: 0.5rem;
+  margin: 0 auto 3rem;
+  display: block;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.about-text {
+  margin-bottom: 3rem;
+  line-height: 1.4rem;
+}
+.technologies-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem 1rem;
+  text-align: center;
+}
+.tech-used {
+  margin-bottom: 3rem;
+  font-weight: 500;
+}
+
+.technology i {
+  font-size: 2rem;
+  color: #fffcff;
+  background-color: #0f1922;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+/* START ABOUT SECTION MEDIA QUERIES */
+@media screen and (min-width: 768px) {
+  .about-text {
+    max-width: 85%;
+  }
+  .about-image {
+    max-width: 50%;
+  }
+  .technology i {
+    font-size: 3.5rem;
+  }
+  .technologies {
+    text-align: center;
+  }
+  .technologies-container {
+    gap: 2rem;
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about-image {
+    margin: 0;
+    max-width: 70%;
+  }
+  .technology i {
+    font-size: 3rem;
+  }
+}
+/* END ABOUT SECTION MEDIA QUERIES */
+/* END OF ABOUT SECTION */
