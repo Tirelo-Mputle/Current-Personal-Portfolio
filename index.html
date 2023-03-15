@@ -110,7 +110,7 @@
       <!-- END OF ABOUT SECTION -->
 
       <!-- START OF PROJECTS SECTION -->
-      <section class="project-section">
+      <section class="project-section centered-section">
         <div class="section-heading">
           <h2 class="section-heading-text">Projects</h2>
         </div>
@@ -118,14 +118,24 @@
         <article class="project-container">
           <!-- Project image -->
           <div class="project-image-container">
-            <img src="" alt="" class="project-image" />
+            <img
+              src="images/project-1-personal-website.png"
+              alt="Person website image"
+              class="project-image"
+            />
           </div>
           <!-- Project details-->
           <div class="project-details-container">
-            <p class="project-name"></p>
-            <p class="project-description"></p>
-            <div class="project-technologies">
-              <span class="project-icons"></span>
+            <p class="project-name">Person portfolio</p>
+            <p class="project-description">
+              A digital resume that details information about me, the projects
+              I've worked on and my <a href="#contacts">contacts</a>
+            </p>
+            <div class="project-technologies-container">
+              <div class="project-technologies">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
             </div>
             <a href="" class="project-github-link"></a>
           </div>
@@ -135,7 +145,7 @@
       <!-- END OF PROJECTS SECTION -->
 
       <!-- START OF WORK EXPERIENCE SECTION -->
-      <section class="work-experience-section">
+      <section class="work-experience-section centered-section">
         <div class="section-heading">
           <h2 class="section-heading-text">Work Experience</h2>
         </div>
@@ -153,7 +163,7 @@
       <!-- END OF WORK EXPERIENCE SECTION -->
 
       <!-- START OF EDUCATION SECTION -->
-      <section class="education">
+      <section class="education-section centered-section">
         <div class="section-heading">
           <h2 class="section-heading-text">Education</h2>
         </div>
@@ -173,47 +183,47 @@
       <!-- END OF EDUCATION SECTION -->
 
       <!-- START OF CONTACTS SECTION -->
-      <section class="contacts">
+      <section class="contacts-section centered-section">
         <div class="section-heading">
-          <h2 class="section-heading-text">Contacts</h2>
+          <h2 class="section-heading-text contacts-heading">Contacts</h2>
         </div>
         <!-- Call to action text -->
-        <p class="CTA-question"></p>
-        <p class="CTA"></p>
+        <p class="CTA-question">Got a problem to solve?</p>
+        <p class="CTA">
+          Message me and we'll chat about the ideas you have for your dream
+          application.
+        </p>
         <!-- Email address -->
-        <p class="email-address"></p>
+        <p class="email-address">
+          <i class="fa-regular fa-envelope"></i>tirelomputle0@gmail.com
+        </p>
+
         <!-- Start of contact form -->
-        <form action="">
+        <form action="" method="POST">
           <!-- name input -->
           <div class="form-input-container">
-            <label for="name">
-              <input type="text" name="name" id="name" />
-            </label>
+            <label for="name">Name </label>
+            <input type="text" name="name" id="name" />
           </div>
           <!-- subject input -->
           <div class="form-input-container">
-            <label for="subject">
-              <select name="subject" id="subject">
-                <option value=""></option>
-                <option value=""></option>
-              </select>
-            </label>
+            <label for="subject">Subject </label>
+            <select name="subject" id="subject">
+              <option value=" Interview opportunity">
+                Interview opportunity
+              </option>
+              <option value="Website review">Website review</option>
+            </select>
           </div>
           <!-- email input -->
           <div class="form-input-container">
-            <label for="email">
-              <input type="email" name="email" id="email" />
-            </label>
+            <label for="email">Email </label>
+            <input type="email" name="email" id="email" />
           </div>
           <!-- message text area -->
           <div class="message-box">
-            <label for="message"></label>
-            <textarea
-              name="message"
-              id="message"
-              cols="30"
-              rows="10"
-            ></textarea>
+            <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
           </div>
           <!-- Submit link -->
           <div class="submit" type="submit">Submit</div>
