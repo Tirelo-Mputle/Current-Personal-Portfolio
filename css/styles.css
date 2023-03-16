@@ -147,6 +147,9 @@ nav {
   border-color: #0f1922;
   background-color: #0f1922;
 }
+.hero-projects-link-container a {
+  margin-right: 1.5rem;
+}
 /* END OF HERO SECTION  */
 /* START OF HEADER AND NAV BAR MEDIA QUERIES */
 @media screen and (min-width: 375px) {
