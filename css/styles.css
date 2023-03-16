@@ -37,8 +37,9 @@ li {
 header {
   background-color: #6819ff;
   color: #fffcff;
-  padding: 0 5% 5rem;
+  padding: 0.1rem 5% 5rem;
   height: 100vh;
+  margin-top: 0;
 }
 header a {
   color: #fffcff;
@@ -49,12 +50,18 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0;
+  padding: 1rem 5%;
   background-color: #6819ff;
+  position: sticky;
+  z-index: 1;
+  top: 0;
 }
-.logo {
+.logo a {
   font-size: 1.5rem;
   color: #0f1922;
+}
+.logo a:hover {
+  color: #fffcff;
 }
 .nav-list {
   display: flex;
@@ -63,11 +70,34 @@ nav {
 .nav-item a {
   font-size: 0.7rem;
   font-weight: 600;
+  color: #fffcff;
 }
 .nav-item a:hover {
   color: #0f1922;
 }
 /* END OF NAV BAR */
+/* START OF BACK TO TOP BUTTON */
+.back-to-top-container {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+.back-to-top-button {
+  font-size: 1.5rem;
+  color: #b95ded;
+}
+.back-to-top-button:hover {
+  color: #1f2831;
+}
+/* START OF BACK TO TOP BUTTON MEDIA QUERIES */
+@media screen and (min-width: 425px) {
+  .back-to-top-container {
+    bottom: 2.5rem;
+    right: 2.5rem;
+  }
+}
+/* END OF BACK TO TOP BUTTON MEDIA QUERIES */
+/* END OF BACK TO TOP BUTTON */
 
 /* START OF HERO SECTION */
 
@@ -294,9 +324,11 @@ nav {
 .job-details {
   margin-bottom: 1.2rem;
 }
-.job-title {
+.job-title,
+.qualification {
   font-weight: 600;
   font-size: 1.1rem;
+  margin-bottom: 0.5rem;
 }
 .employer,
 .dates {
@@ -327,6 +359,22 @@ nav {
 /* END OF WORK EXPERIENCE AND EDUCATION SECTION */
 
 /* START OF CONTACTS SECTION */
+.CTA-question {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.CTA {
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+  width: 90%;
+}
+.email-address {
+  font-size: 1.3rem;
+}
+.email-address i {
+  margin-right: 1rem;
+}
 .contacts-section {
   background-color: #0f1922;
   color: #fffcff;
@@ -367,4 +415,28 @@ form {
   text-align: center;
   margin: 0 auto;
 }
+/* START OF CONTACTS MEDIA QUERIES */
+@media screen and (min-width: 768px) {
+  .CTA {
+    width: 60%;
+  }
+}
+/* END OF CONTACTS MEDIA QUERIES */
 /* END OF CONTACTS SECTION */
+/* START OF FOOTER SECTION */
+footer {
+  background-color: #0f1922;
+  text-align: center;
+  color: #fffcff;
+  padding: 1.5rem 0;
+}
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.7rem;
+  gap: 2rem;
+}
+.footer-social-icons i:hover {
+  color: #6819ff;
+}
+/* END OF FOOTER SECTION */

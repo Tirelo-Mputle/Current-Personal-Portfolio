@@ -14,22 +14,32 @@
     <title>Tirelo Mputle's resume</title>
   </head>
   <body>
+    <!-- START OF NAV BAR -->
+    <nav>
+      <!-- Nav logo -->
+      <div class="logo">
+        <a href="#header"><i class="fa-solid fa-mountain-sun"></i></a>
+      </div>
+      <!-- Nav list -->
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#about">About</a></li>
+        <li class="nav-item"><a href="#projects">Projects</a></li>
+        <li class="nav-item"><a href="#work-experience">Experience</a></li>
+        <li class="nav-item"><a href="#education">Education</a></li>
+        <li class="nav-item"><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+    <!-- END OF NAV BAR  -->
     <!-- START OF HEADER SECTION -->
-    <header>
-      <!-- START OF NAV BAR -->
-      <nav>
-        <!-- Nav logo -->
-        <div class="logo"><i class="fa-solid fa-mountain-sun"></i></div>
-        <!-- Nav list -->
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#about">About</a></li>
-          <li class="nav-item"><a href="#projects">Projects</a></li>
-          <li class="nav-item"><a href="#experience">Experience</a></li>
-          <li class="nav-item"><a href="#education">Education</a></li>
-          <li class="nav-item"><a href="#contacts">Contacts</a></li>
-        </ul>
-      </nav>
-      <!-- END OF NAV BAR  -->
+    <header id="header">
+      <!-- START OF BACK TO TOP BUTTON -->
+      <div class="back-to-top-container">
+        <a href="#header"
+          ><i class="fa-solid fa-circle-up back-to-top-button"></i
+        ></a>
+      </div>
+      <!-- END OF BACK TO TOP BUTTON -->
+
       <!-- START OF HERO SECTION -->
       <section class="hero-section">
         <div class="hero-text">
@@ -48,7 +58,7 @@
     <!-- START OF MAIN SECTION -->
     <main>
       <!-- START OF ABOUT SECTION -->
-      <section class="about-section centered-section">
+      <section class="about-section centered-section" id="about">
         <!-- About me text including an image -->
         <div class="section-heading">
           <h2 class="section-heading-text">About</h2>
@@ -66,7 +76,7 @@
                 <a
                   href="https://www.codespace.co.za/programs/software-development/"
                   >CodeSpace</a
-                >
+                >.
               </p>
             </div>
             <img
@@ -110,7 +120,7 @@
       <!-- END OF ABOUT SECTION -->
 
       <!-- START OF PROJECTS SECTION -->
-      <section class="project-section centered-section">
+      <section class="project-section centered-section" id="projects">
         <div class="section-heading">
           <h2 class="section-heading-text">Projects</h2>
         </div>
@@ -150,10 +160,14 @@
         <!-- End of project card -->
       </section>
       <!-- END OF PROJECTS SECTION -->
+
       <!-- START OF WORK EXPERIENCE AND EDUCATION WRAPPER DIV -->
       <div class="work-and-education-wrapper">
         <!-- START OF WORK EXPERIENCE SECTION -->
-        <section class="work-experience-section centered-section">
+        <section
+          class="work-experience-section centered-section"
+          id="work-experience"
+        >
           <div class="section-heading">
             <h2 class="section-heading-text">Work Experience</h2>
           </div>
@@ -190,7 +204,7 @@
         <!-- END OF WORK EXPERIENCE SECTION -->
 
         <!-- START OF EDUCATION SECTION -->
-        <section class="education-section centered-section">
+        <section class="education-section centered-section" id="education">
           <div class="section-heading">
             <h2 class="section-heading-text">Education</h2>
           </div>
@@ -212,7 +226,7 @@
       <!-- END OF WORK EXPERIENCE AND EDUCATION WRAPPER DIV -->
 
       <!-- START OF CONTACTS SECTION -->
-      <section class="contacts-section centered-section">
+      <section class="contacts-section centered-section" id="contacts">
         <div class="section-heading">
           <h2 class="section-heading-text contacts-heading">Contacts</h2>
         </div>
@@ -265,7 +279,9 @@
     <!-- START OF FOOTER -->
     <footer>
       <!-- Footer social media icons -->
-      <div class="footer-social-icons"></div>
+      <div class="footer-social-icons">
+        <i class="fa-brands fa-linkedin"></i><i class="fa-brands fa-github"></i>
+      </div>
       <p>Built by Tirelo Mputle</p>
     </footer>
     <!-- END OF FOOTER -->
