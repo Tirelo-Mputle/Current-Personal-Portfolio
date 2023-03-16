@@ -148,7 +148,7 @@ nav {
   background-color: #0f1922;
 }
 /* END OF HERO SECTION  */
-/* START OF HEADER MEDIA QUERIES */
+/* START OF HEADER AND NAV BAR MEDIA QUERIES */
 @media screen and (min-width: 375px) {
   .nav-item a {
     font-size: 0.8rem;
@@ -158,6 +158,9 @@ nav {
   .nav-item a {
     font-size: 0.9rem;
     font-weight: normal;
+  }
+  .nav-list {
+    gap: 0.7rem;
   }
   .intro {
     font-size: 2rem;
@@ -283,7 +286,7 @@ nav {
   border-top-right-radius: 0.5rem;
 }
 .project-details-container {
-  background-color: #fffcff;
+  background-color: #fffdfc;
   padding: 2rem 1.3rem;
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
@@ -304,12 +307,6 @@ nav {
   margin-left: 0.5rem;
   color: #6819ff;
 }
-/* .project-github-link {
-  background-color: #6819ff;
-  color: #fffcff;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-} */
 
 /* START OF PROJECTS MEDIA QUERIES */
 
@@ -367,17 +364,17 @@ nav {
 
 /* START OF CONTACTS SECTION */
 .CTA-question {
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
 }
 .CTA {
-  margin-bottom: 1.5rem;
-  font-size: 1.3rem;
+  margin-bottom: 1.3rem;
+  font-size: 1.1rem;
   width: 90%;
 }
 .email-address {
-  font-size: 1.3rem;
+  font-size: 0.9rem;
 }
 .email-address i {
   margin-right: 1rem;
@@ -396,9 +393,10 @@ nav {
 select {
   height: 3rem;
 }
+
 .form-input-container input,
 textarea,
-select {
+.form-input-container select {
   padding: 0.8rem;
   color: #fffcff;
   background-color: #1f2831;
@@ -429,6 +427,17 @@ form {
   max-width: 35rem;
 }
 /* START OF CONTACTS MEDIA QUERIES */
+@media screen and (min-width: 425px) {
+  .CTA-question {
+    font-size: 1.7rem;
+  }
+  .CTA {
+    margin-bottom: 1.5rem;
+  }
+  .email-address {
+    font-size: 1.3rem;
+  }
+}
 @media screen and (min-width: 768px) {
   .CTA {
     width: 60%;
