@@ -223,6 +223,109 @@ nav {
 }
 /* END ABOUT SECTION MEDIA QUERIES */
 /* END OF ABOUT SECTION */
+
+/* START OF PROJECTS SECTION */
+.project-section {
+  background-color: #0f1922;
+  color: #0f1922;
+}
+.project-section .section-heading-text {
+  color: #fffcff;
+}
+.project-container {
+  max-width: 35rem;
+  margin: 0 auto;
+}
+.project-image {
+  width: 100%;
+  height: 13rem;
+  object-fit: fill;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+.project-details-container {
+  background-color: #fffcff;
+  padding: 2rem 1.3rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.project-name {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.project-description {
+  margin-bottom: 1rem;
+}
+.project-technologies-container {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.project-technologies {
+  font-weight: 500;
+  margin-left: 0.5rem;
+  color: #6819ff;
+}
+.project-github-link {
+  background-color: #6819ff;
+  color: #fffcff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+.project-github-link:hover {
+  background-color: #0f1922;
+}
+/* START OF PROJECTS MEDIA QUERIES */
+
+/* END OF PROJECTS MEDIA QUERIES */
+@media screen and (min-width: 425px) {
+  .project-image {
+    height: 17rem;
+  }
+
+  .project-details-container {
+    padding: 2rem 2rem;
+  }
+}
+/* END OF PROJECTS SECTION */
+
+/* START OF WORK EXPERIENCE AND EDUCATION SECTION */
+
+/* WORK SECTION */
+.job-details {
+  margin-bottom: 1.2rem;
+}
+.job-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.employer,
+.dates {
+  font-family: "Courier New", Courier, monospace;
+}
+.task {
+  margin-bottom: 0.6rem;
+}
+.task-icon {
+  font-size: 0.5rem;
+  margin-right: 0.5rem;
+}
+/* EDUCATION SECTION */
+.education-container {
+  margin-bottom: 2rem;
+}
+.institution {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* START OF WORK EXPERINCE AND EDUCATION MEDIA QUERIES */
+@media screen and (min-width: 1024px) {
+  .work-and-education-wrapper {
+    display: flex;
+  }
+}
+/* END OF WORK EXPERINCE AND EDUCATION MEDIA QUERIES */
+/* END OF WORK EXPERIENCE AND EDUCATION SECTION */
+
 /* START OF CONTACTS SECTION */
 .contacts-section {
   background-color: #0f1922;
