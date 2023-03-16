@@ -30,7 +30,16 @@ li {
   font-size: 1.2rem;
   margin-bottom: 3rem;
 }
-
+.buttons {
+  background-color: #6819ff;
+  color: #fffcff;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+.buttons:hover {
+  background-color: #0f1922;
+}
 /* END OF REUSABLE STYLE COMBINATIONS */
 
 /* START OF HEADER */
@@ -295,15 +304,13 @@ nav {
   margin-left: 0.5rem;
   color: #6819ff;
 }
-.project-github-link {
+/* .project-github-link {
   background-color: #6819ff;
   color: #fffcff;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
-}
-.project-github-link:hover {
-  background-color: #0f1922;
-}
+} */
+
 /* START OF PROJECTS MEDIA QUERIES */
 
 /* END OF PROJECTS MEDIA QUERIES */
@@ -374,6 +381,7 @@ nav {
 }
 .email-address i {
   margin-right: 1rem;
+  margin-bottom: 3rem;
 }
 .contacts-section {
   background-color: #0f1922;
@@ -391,10 +399,12 @@ select {
 .form-input-container input,
 textarea,
 select {
-  padding: 0.5rem;
+  padding: 0.8rem;
   color: #fffcff;
   background-color: #1f2831;
-  width: 80%;
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
 }
 textarea {
   min-height: 7rem;
@@ -407,13 +417,16 @@ label {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+.message-box {
+  margin-bottom: 4rem;
 }
 form {
-  border: 1px solid red;
   padding: 3rem 2rem 2rem;
   text-align: center;
   margin: 0 auto;
+  max-width: 35rem;
 }
 /* START OF CONTACTS MEDIA QUERIES */
 @media screen and (min-width: 768px) {
@@ -436,7 +449,13 @@ footer {
   margin-bottom: 0.7rem;
   gap: 2rem;
 }
-.footer-social-icons i:hover {
+.footer-social-icons a {
+  color: #fffcff;
+}
+.footer-social-icons a:hover {
   color: #6819ff;
+}
+footer p {
+  font-size: 0.8rem;
 }
 /* END OF FOOTER SECTION */

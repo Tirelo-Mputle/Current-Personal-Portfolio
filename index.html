@@ -150,8 +150,8 @@
               </div>
             </div>
             <a
-              href="https://github.com/Tirelo-Mputle/final-CodeSpace-resume"
-              class="project-github-link"
+              href="https://github.com/Tirelo-Mputle/TIRMPU902_bcl2302_group_owen_Tirelo-Mputle_ITW9_Final-Digital-Resume-"
+              class="project-github-link buttons"
               target="_blank"
               >Github</a
             >
@@ -242,16 +242,19 @@
         </p>
 
         <!-- Start of contact form -->
-        <form action="" method="POST">
+        <form
+          action="https://formsubmit.co/c41bc2e6ab72614dc704371252ae5b2e"
+          method="POST"
+        >
           <!-- name input -->
           <div class="form-input-container">
             <label for="name">Name </label>
-            <input type="text" name="name" id="name" />
+            <input type="text" name="name" id="name" required />
           </div>
           <!-- subject input -->
           <div class="form-input-container">
             <label for="subject">Subject </label>
-            <select name="subject" id="subject">
+            <select name="_subject" id="subject" required>
               <option value=" Interview opportunity">
                 Interview opportunity
               </option>
@@ -261,15 +264,15 @@
           <!-- email input -->
           <div class="form-input-container">
             <label for="email">Email </label>
-            <input type="email" name="email" id="email" />
+            <input type="email" name="email" id="email" required />
           </div>
           <!-- message text area -->
           <div class="message-box">
             <label for="message">Message</label>
-            <textarea name="message" id="message"></textarea>
+            <textarea name="message" id="message" required></textarea>
           </div>
           <!-- Submit link -->
-          <div class="submit" type="submit">Submit</div>
+          <input type="submit" value="Submit" class="submit buttons" />
         </form>
         <!-- End of contact form -->
       </section>
@@ -280,7 +283,13 @@
     <footer>
       <!-- Footer social media icons -->
       <div class="footer-social-icons">
-        <i class="fa-brands fa-linkedin"></i><i class="fa-brands fa-github"></i>
+        <a href="https://www.linkedin.com/in/tirelo-mputle/" target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+
+        <a href="https://github.com/Tirelo-Mputle" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
       </div>
       <p>Built by Tirelo Mputle</p>
     </footer>
