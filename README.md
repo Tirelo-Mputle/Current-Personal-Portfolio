@@ -1,5 +1,5 @@
 
-# Tirelo Mputle personal portfolio 👩‍🦱
+# Tirelo Mputle personal portfolio 🙋‍♀️
 Author: Tirelo Mputle
 
 #### Description:
@@ -13,8 +13,8 @@ A personal portfolio which contains the following sections: <br>
 There is a contact form that visitors can interact with that will deliver a message to my email account.
 
 Technologies used <br>
-*HTML
-*CSS.
+* HTML
+* CSS.
 
 🔗https://tirelomputle-portfolio.netlify.app/
 
