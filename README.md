@@ -1,11 +1,20 @@
-# TIRMPU902_bcl2302_group_owen_Tirelo-Mputle_ITW9_Final-Digital-Resume
-### Tirelo Mputle personal portfolio
+
+# Tirelo Mputle personal portfolio 👩‍🦱
 Author: Tirelo Mputle
 
 #### Description:
-A personal portfolio which contains the following sections: about, work experience, education, projects and contacts. There is a contact form that visitors can interact with that will deliver a message to my email account.
+A personal portfolio which contains the following sections: <br>
+* about
+* work experience
+* education
+* projects
+* contacts 
+<br>
+There is a contact form that visitors can interact with that will deliver a message to my email account.
 
-Technologies used: HTML and CSS.
+Technologies used <br>
+*HTML
+*CSS.
 
 🔗https://tirelomputle-portfolio.netlify.app/
 
