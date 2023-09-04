@@ -1,6 +1,6 @@
 
 # Tirelo Mputle personal portfolio 🙋‍♀️
-Author: Tirelo Mputle
+Author: Tirelo Mputle <br>
 🔗https://tirelomputle-portfolio.netlify.app/
 
 #### Description:
