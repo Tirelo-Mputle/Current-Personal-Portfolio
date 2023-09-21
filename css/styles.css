@@ -281,6 +281,7 @@ nav {
   max-width: 35rem;
   margin: 0 auto 5rem 0;
 }
+
 .project-image {
   width: 100%;
   height: 13rem;
@@ -318,6 +319,10 @@ nav {
   color: #0f1922;
   margin-right: 1.5rem;
 }
+.technology img {
+  width: 5rem;
+}
+
 .project-link {
   margin-right: 1rem;
 }
@@ -325,6 +330,7 @@ nav {
   display: flex;
   flex-direction: column;
 }
+
 /* START OF PROJECTS MEDIA QUERIES */
 
 /* END OF PROJECTS MEDIA QUERIES */
@@ -337,11 +343,21 @@ nav {
     padding: 2rem 2rem;
   }
 }
+@media screen and (min-width: 768px) {
+  .all-projects-container {
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
 /* END OF PROJECTS SECTION */
 
 /* START OF WORK EXPERIENCE AND EDUCATION SECTION */
 
 /* WORK SECTION */
+.work-experience-container {
+  margin-bottom: 2rem;
+  max-width: 700px;
+}
 .job-details {
   margin-bottom: 1.2rem;
 }
@@ -363,17 +379,25 @@ nav {
   margin-right: 0.5rem;
 }
 /* EDUCATION SECTION */
+.education-section {
+  margin-top: 0;
+  /* background-color: orange; */
+  padding: 0 10%;
+}
 .education-container {
   margin-bottom: 2rem;
+  min-width: 17rem;
 }
 .institution {
   font-family: 'Courier New', Courier, monospace;
 }
 
 /* START OF WORK EXPERINCE AND EDUCATION MEDIA QUERIES */
-@media screen and (min-width: 1024px) {
-  .work-and-education-wrapper {
+@media screen and (min-width: 768px) {
+  .education-items {
     display: flex;
+    column-gap: 2rem;
+    flex-wrap: wrap;
   }
 }
 /* END OF WORK EXPERINCE AND EDUCATION MEDIA QUERIES */
