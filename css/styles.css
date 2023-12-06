@@ -233,6 +233,14 @@ nav {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
+.iconImage {
+  background-color: #0f1922;
+  max-width: 3rem;
+  max-height: 3rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
 /* START ABOUT SECTION MEDIA QUERIES */
 @media screen and (min-width: 768px) {
   .about-text {
