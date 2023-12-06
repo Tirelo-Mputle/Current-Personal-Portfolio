@@ -338,10 +338,16 @@ nav {
 }
 .all-projects-container {
   display: flex;
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* align-items: center; */
   flex-wrap: wrap;
+}
+.project-badge-container {
+  margin-bottom: 0.9rem;
+}
+.project-badge {
+  background-color: #3e4043;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.7rem;
 }
 
 /* START OF PROJECTS MEDIA QUERIES */
